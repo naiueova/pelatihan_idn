@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:cornflowerblue;
+    height: 100vh;
+}
+
+.kotak {
+    padding: 20px;
+    background-color:white;
+    border-radius: 20px;
+}
+
+.kotak .user label {
+    display: block;
+}
+
+.kotak input {
+    padding-left: 20px;
+    display: block;
+}
+
+.login {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.kotak .pass label {
+    margin-top: 20px;
+    display: block;
+}
+
+.fpass {
+    text-decoration: none;
+}
+
+.pfpass {
+    
+}
